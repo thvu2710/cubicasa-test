@@ -41,11 +41,11 @@ export default {
 			<!-- LOGO -->
 			<a href="/" class="navbar-brand mr-0 mr-md-2 logo">
 				<span class="logo-lg">
-					<img src="@assets/images/logo.png" alt height="24" />
-					<span class="d-inline h5 ml-2 text-logo">Shreyu</span>
+					<img src="@assets/images/cubicasa-logo-dark-icon.svg" alt height="24" />
+					<span class="d-inline h5 ml-2 text-logo"></span>
 				</span>
 				<span class="logo-sm">
-					<img src="@assets/images/logo.png" alt height="24" />
+					<img src="@assets/images/cubicasa-logo-dark-icon.svg" alt height="24" />
 				</span>
 			</a>
 
