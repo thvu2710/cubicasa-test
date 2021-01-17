@@ -291,7 +291,7 @@ export default {
 				<b-nav-item-dropdown
 					right
 					class="notification-list align-self-center profile-dropdown"
-					toggle-class="nav-user mr-0"
+					toggle-class="nav-user mr-0 pr-0"
 				>
 					<template v-slot:button-content>
 						<div class="media user-profile">
