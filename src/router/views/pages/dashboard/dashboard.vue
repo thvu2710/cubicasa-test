@@ -244,6 +244,16 @@ export default {
 		</div>
 
 		<div class="row">
+			<div class="col">
+				<b-alert variant="danger" show dismissible>
+					<strong>ANNOUNCEMENT</strong>
+					<div>
+						Announcement emails that have the purpose of introducing a new business, allow a company to reach out to an existing customer base instantly, instead of relying on other media sources, such as TV advertisements or printed media.
+					</div>
+				</b-alert>
+			</div>
+		</div>
+		<div class="row">
 			<div
 				v-for="stat of statChart"
 				:key="stat.mainTitle"
