@@ -1,7 +1,3 @@
-# Shreyu - Vue based admin template
-
-### This project is crafted using [vue-enterprise-boilerplate](https://github.com/chrisvfritz/vue-enterprise-boilerplate.git). It's an SPA project using Vue CLI 3.
-
 ## Getting started
 
 ```bash
@@ -15,4 +11,10 @@ yarn install
 yarn dev
 ```
 
-For reviewing project structure and other details, please visit their official [documentation](https://github.com/chrisvfritz/vue-enterprise-boilerplate).
+Here is the captured image for the test
+
+![screenshot 1](https://github.com/thvu2710/cubicasa-test/blob/master/src/assets/images/captured-demo/Capture1.PNG)
+
+![screenshot 2](https://github.com/thvu2710/cubicasa-test/blob/master/src/assets/images/captured-demo/Capture2.PNG)
+
+![screenshot 3](https://github.com/thvu2710/cubicasa-test/blob/master/src/assets/images/captured-demo/Capture3.PNG)
