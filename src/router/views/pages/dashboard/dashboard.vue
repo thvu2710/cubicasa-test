@@ -9,6 +9,7 @@ import Overview from '@components/overview'
 import Member from '@components/member'
 import Task from '@components/task'
 import Chat from '@components/chat'
+import CustomTaskList from '@components/custom-task-list'
 
 import {
 	revenueAreaChart,
@@ -33,6 +34,7 @@ export default {
 		Member,
 		Task,
 		Chat,
+		CustomTaskList,
 	},
 	data() {
 		return {
@@ -440,6 +442,52 @@ export default {
 					:messages="chatMessages"
 					title="Recent Conversation"
 				/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-4">
+				<div class="card">
+					<div class="card-body pt-2 pb-2">
+						<h5 class="mb-4 header-title">Draft</h5>
+						<div v-for="member of membersData" :key="member.name" class="pb-2">
+							<CustomTaskList
+								:image="member.image"
+								:name="member.name"
+								:text="member.text"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4">
+				<div class="card">
+					<div class="card-body pt-2 pb-2">
+						<h5 class="mb-4 header-title">Pending & Fixing</h5>
+						<div v-for="member of membersData" :key="member.name" class="pb-2">
+							<CustomTaskList
+								:image="member.image"
+								:name="member.name"
+								:text="member.text"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-4">
+				<div class="card">
+					<div class="card-body pt-2 pb-2">
+						<h5 class="mb-4 header-title">Ready</h5>
+						<div v-for="member of membersData" :key="member.name" class="pb-2">
+							<CustomTaskList
+								:image="member.image"
+								:name="member.name"
+								:text="member.text"
+							/>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</Layout>
